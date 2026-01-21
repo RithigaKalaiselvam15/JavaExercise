@@ -8,6 +8,7 @@ public class Main {
         EmployeeData data = new EmployeeData();
         List<Employee> EmployeeDetails = data.getEmployeeData();
         EmployeeDetails.forEach(System.out::println);
+        System.out.println("fsdfs");
 
         //Added New Employee Data
         System.out.println("\n" + "New EmployeeData Added");
